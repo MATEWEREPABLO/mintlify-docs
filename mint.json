@@ -6,7 +6,6 @@
     "light": "#4A5D7E",
     "dark": "#1A222E"
   },
-  "openapi": "openapi.json",
   "navigation": [
     {
       "group": "Getting Started",
