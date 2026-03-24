@@ -1,0 +1,17 @@
+{
+    "name": "Yonne API",
+    "colors": {
+      "primary": "#2E3B4E",
+      "light": "#4A5D7E",
+      "dark": "#1A222E"
+    },
+    "openapi": "openapi.json",
+    "navigation": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "introduction"
+        ]
+      }
+    ]
+  }
