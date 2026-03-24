@@ -1,5 +1,11 @@
 {
   "name": "Yonne API",
+  "favicon": "/favicon.png",
+  "colors": {
+    "primary": "#2E3B4E",
+    "light": "#4A5D7E",
+    "dark": "#1A222E"
+  },
   "navigation": [
     {
       "group": "Getting Started",
