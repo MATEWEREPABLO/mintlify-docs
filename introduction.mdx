@@ -1,41 +1,27 @@
 ---
 title: "Getting Started"
-description: "Integrate Yonne delivery logistics into your platform"
 ---
 
 # Welcome to the Yonne API
 
-Welcome to the Yonne Developer Hub! Our API allows e-commerce platforms, mobile apps, and custom websites to seamlessly integrate on-demand delivery logistics across Malawi. 
-
-Whether you are building a custom WooCommerce plugin, a Shopify app, or a bespoke marketplace, this guide will get you up and running and making your first API call in under 5 minutes.
-
----
+Welcome to the Yonne Developer Hub! Our API allows e-commerce platforms and mobile apps to integrate on-demand delivery logistics across Malawi. 
 
 ## 🛠 Prerequisites
 Before writing any code, you will need a Yonne Merchant account.
 1. Sign up or log in at your Merchant Dashboard.
 2. Navigate to **Developer Settings** > **API Keys**.
-3. Generate a **Test API Key**. It will look something like this: `yonne_test_12345abcdef...`
-
-*(Note: Always build and test your integration using your Test key. Test mode utilizes a simulated wallet and will not dispatch real riders.)*
-
----
+3. Generate a **Test API Key**.
 
 ## 🔐 Authentication
-The Yonne API uses API keys to authenticate requests. You must include your API key in the headers of every request. You can pass it in one of two ways:
+The Yonne API uses API keys to authenticate requests.
 
-**Option 1: Bearer Token (Recommended)**
+**Bearer Token (Recommended)**
 `Authorization: Bearer your_api_key_here`
-
-**Option 2: Custom Header**
-`X-API-Key: your_api_key_here`
-
-If a key is missing or invalid, the API will return a `401 Unauthorized` error.
 
 ---
 
-## 🚀 Step 1: Your First API Call (Hello World)
-Let's verify your API key is working by fetching your merchant profile context. Open your terminal and run this cURL command (replace the token with your actual Test API key):
+## 🚀 Your First API Call
+Verify your API key is working by running this cURL command:
 
 ```bash
 curl --request GET \
